@@ -64,18 +64,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin: 15px 30px 40px 30px;
+	 width: 900px;
+}
+.container header{
+	display: flex;
+	justify-content: space-around
+
+}
+.subheader-row{
+	display: flex;
+	justify-content: center;
+}
+
 .logo{
 
 }
 a{
-	color: grey;
 	text-decoration: none;
 	margin: 0 10px;
  	padding: 10px;
 	display: inline-block;
 	color: lightgray;
 	text-decoration: none;
-	margin-blightgrayottom: 20px;
 }
 .giant-letters{
 	font-size: 60px;
@@ -83,6 +95,14 @@ a{
 .button{
 	padding: 20px;
 }
+.top-content-row{
+display: flex;
+}
+
+.bottom-content-row{
+	display: flex;
+}
+
 .copyright{
 	padding: 20px 0;
 	text-align: center;
